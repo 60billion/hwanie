@@ -1,0 +1,13 @@
+.col-sm {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 1px solid transparent;
+ }
+.responsive {
+	width: 100%;
+	height: auto;
+ }
+.form-group{
+    padding: 0 !important;
+    margin: 0 !important;
+ }
