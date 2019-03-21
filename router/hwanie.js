@@ -6,10 +6,12 @@ module.exports = function(app)
 
    //css 및 정적 파일을 사용하기위해서
    router.use(express.static('public'));
+   var a;
 
    router.get('/clues',function(req,res){
-    var sendmsg = {ejs:"ejs Test"};
-    res.render('hwanie',sendmsg);
+    a= a+1;
+    console.log(a);
+    res.render('hwanie');
      });
 
    router.post('/clues',function(req,res){
