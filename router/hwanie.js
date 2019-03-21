@@ -6,7 +6,7 @@ module.exports = function(app)
 
    //css 및 정적 파일을 사용하기위해서
    router.use(express.static('public'));
-   var a;
+   var a = 0;
 
    router.get('/clues',function(req,res){
     a= a+1;
